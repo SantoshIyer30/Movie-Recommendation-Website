@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './Header';
-import styled from 'styled-components';
 import Search from './Search';
+import Results from './Results';
 
 function App() {
   return (
@@ -12,6 +11,7 @@ function App() {
       <Header/>
         <Routes>
           <Route exact path='/' element={<Search/>}/>
+          <Route path='/results' element={<Results />}/>
         </Routes>
       </Router>
     </div>
