@@ -26,6 +26,11 @@ const CollectionCard = styled.div`
     img{
         width: 100%;
     }
+    @media only screen and (max-width : 950px){
+        width: 200px;
+        height:400px ;
+        
+    }
 `;
 
 const Details = styled.div`

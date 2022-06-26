@@ -76,7 +76,7 @@ const BgImage = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-image:url('/assets/images/background-homepage.jpg');
-  background-color: rgbargba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5);
   position: absolute;
   top:0;
   right:0;
