@@ -1,20 +1,23 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function Header (){
-    return(
+function Header() {
+    return (
         <Head>
-            <img src='/assets/images/popcorn.png' alt=''/>
+            <img src='/assets/images/movie-icon.png' alt=''/>
             <Title>Movie Recommender</Title>
         </Head>
-        
+
     )
 }
 
 const Head = styled.div`
     margin:0 ;
+    font-family: 'Montserrat', sans-serif;
+    font-size : 1.5rem;
     display: flex;
-    justify-content: left;
+    top: 8.5rem;
+    justify-content: center;
     align-items:center ;
     position:fixed ;
     width: 100% ;
