@@ -11,7 +11,7 @@ function Search(){
                     <TextBox>
                         <input name='hello'/>
                     </TextBox>
-                    <SearchButton>
+                    <SearchButton type="button" class="btn btn-outline-secondary">
                         Search
                     </SearchButton>
                     <Description>
@@ -75,7 +75,7 @@ const BgImage = styled.div`
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image:url('/assets/images/background-homepage.jpg');
+  background-image:url('/assets/images/login-background.jpg');
   background-color: rgbargba(0,0,0,0.5);
   position: absolute;
   top:0;
@@ -87,6 +87,7 @@ const BgImage = styled.div`
 
 const Description=styled.p`
 color: hsla(0,0%,95.3%,1);
+font-family: 'Poppins', sans-serif;
 font-size: 14px;
 margin: 0 0 24px;
 line-height: 1.5;
@@ -107,7 +108,7 @@ const TextBox = styled.div`
     margin-left: auto;
     transition-timing-function: ease-out;
     transition: opacity 0.2s;
-    width:100%;
+    width:70%;
     input{
         width: 100%;
         letter-spacing: 1.5px;
@@ -124,7 +125,7 @@ font-weight: bold;
 color: white;
 background-color: #0063e5;
 margin-bottom: 12px;
-width: 100%;
+width: 50%;
 letter-spacing: 1.5px;
 font-size: 18px;
 padding: 16.5px 0;
